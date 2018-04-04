@@ -1,0 +1,41 @@
+@charset "utf-8";
+/******************************************************************************************************************************************************/
+/**********************************************************Cha Nam Il *********************************************************/
+/**************************************************** mobiwoos@naver.com *****************************************************************/
+/******************************************************************************************************************************************************/
+
+body{font-size:12px;}
+button { cursor:pointer}
+a{text-decoration:none;}
+a:link, a:visited { text-decoration:none;color:#666;}
+a:hover, a:focus, a:active { text-decoration:none}
+table{border-collapse:collapse;border-spacing:0;}
+caption{text-indent:-9999px;width:0;height:0;display:none;}
+a, abbr, acronym, address, applet, article, aside, audio, b, blockquote, big, body, center, canvas, caption, cite, code, command, datalist, dd, del, details, dfn, dl, div, dt, em, embed,
+fieldset, figcaption, figure, font, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, keygen, label, legend, li, meter, nav, menu, object, ol, output,
+p, pre, progress, q, s, samp, section, small, span, source, strike, strong, sub, sup, table, tbody, tfoot, thead, th, tr, tdvideo, tt, u, ul, var { margin:0; padding:0;}
+
+h1, h2, h3, h4, h5, h6, th, td, table, input, button, select, textarea, sub{ font-size:1em}
+body, input, button, select, textarea, sub,input{ font-family:나눔고딕,Nanum Gothic,sans-serif;color:#909090;}
+em, cite, address, optgroup {font-style:normal}
+kbd, samp, code { font-family:monospace}
+
+img, input, button, select, textarea { vertical-align:middle}
+ul, ol { list-style:none}
+img, fieldset { border:0}
+abbr, acronym { cursor:help; border-bottom:1px dotted black}
+table {width:100%;border-spacing:0;border:0;border-collapse:collapse;}
+textarea{resize:none;box-sizing:border-box;}
+button {border:0;padding:0;margin:0;text-decoration:none}
+
+legend, hr { overflow:hidden; position:absolute; top:0; left:0}
+legend, hr, caption { visibility:hidden; font-size:0; width:0; height:0; line-height:0}
+
+/*input,textarea, select{outline:none;}*/
+/* Html5 Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video{ display: block}
+mark, rp, rt, ruby, summary, time{ display: inline }
+input[type='password']:focus,input[type='text']:focus, textarea:focus{outline:none;} 
+.hide{position:absolute;left:-9999px;width:0;height:0;font-size:0;line-height:0;}
+.im_br:after{display:block;position:absolute;top: 0px;right: 0px;bottom: 0px;left: 0px;z-index: 10;border:1px solid rgba(0, 0, 0,0.1);content:"";}
+

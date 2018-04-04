@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>디지아슬라이더</title>
+<link type="text/css" rel="stylesheet" href="css/reset.css" />
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/diziaSlider.js"></script>
+<style>
+.diziaSlider-wrap{width:100%;height:493px;overflow:hidden;position:relative;}
+.diziaSlider{position:absolute;top:0;height:493px;width:auto;}
+.diziaSlider:after{content:"";display:block;clear:both;}
+.diziaSlider li{float:left;height:493px;text-align:center}
+.diziaSlider li img{display:block;width:100%;height:100%;}
+.diziaSlider-wrap .paging{position:absolute;left:45%;bottom:40px;}
+.diziaSlider-wrap .paging a{display:inline-block;line-height:20px;width:20px;height:20px;border:1px solid #333;text-align:center;margin:0 3px;border-radius:20px;}
+.diziaSlider-wrap .btn a{position:absolute;top:50%;margin-top:-20px;display:block;width:40px;height:40px;border:1px solid #000;text-align:center;line-height:40px;}
+.diziaSlider-wrap .paging a.on{background:#fc0;}
+.diziaSlider-wrap .dizia-prev{left:0;}
+.diziaSlider-wrap .dizia-next{right:0;}
+</style>
+</head>
+<body>
+	<div class="contents">
+		<ul class="diziaSlider">
+			<li><img src="/gj/images/main/slider_01.jpg" /></li>
+			<li><img src="/gj/images/main/slider_03.jpg" /></li>
+			<li><img src="/gj/images/main/slider_04.jpg" /></li>
+		</ul>
+	</div>
+	<script>
+		$(function(){
+			$(".diziaSlider").diziaSlider({
+				background : true, //백그라운드로 사용할지  유무
+				type : "fade", //slide, fade 두가지 모드
+				speed : 500,
+				delay : 3000,
+				auto : false,
+				controls : false,
+				pager : true
+			});
+		});
+	</script>
+</body>
+</html>
